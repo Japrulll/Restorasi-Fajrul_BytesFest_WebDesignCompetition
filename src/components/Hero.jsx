@@ -95,7 +95,7 @@ export default function Hero() {
                 ref={videoRef}
                 id='video-ref'
                 className='w-full h-full object-cover'
-                src='/Keyboard_Recycle5_scrub.mp4'
+                src='/Keyboard_Recycle5_scrub_v2.mp4'
                 muted loop autoPlay
                 // muted playsInline preload='auto'
             />
