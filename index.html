@@ -2,8 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/LogoRestorasi.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+      function nocontext(e) {
+        var clickedTag = (e==null) ? event.srcElement.tagName : e.target.tagName;
+        if (clickedTag == "IMG")
+          return false;
+      }
+      document.oncontextmenu = nocontext;
+    </script>
     <style>
       /* width */
       ::-webkit-scrollbar {
@@ -24,11 +32,21 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #3e7c4d; 
       }
+      img {
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+      }
     </style>
-    <title>restorasi-fajrul-bytesfest-webdesigncompetition</title>
+    
+    <title>
+      Restorasi
+    </title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root" class=""></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
