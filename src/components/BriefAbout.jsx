@@ -32,9 +32,7 @@ export default function BriefAbout() {
       { opacity: 1, x: 0, y: 0, rotation: 0, ease: 'power2.out', duration: 1 },
       0,
     )
-
-    ScrollTrigger.refresh()
-  },)
+  }, {scope:sectionRef})
 
 
   return (

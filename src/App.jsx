@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Lenis from 'lenis'
 import BriefAbout from './components/BriefAbout'
 import Helper from './components/Helper'
+import Program from './components/Program'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,6 +55,7 @@ export default function App() {
         <Header />
       </div>
       <BriefAbout />
+      <Program />
       <Helper />
     </div>
   )

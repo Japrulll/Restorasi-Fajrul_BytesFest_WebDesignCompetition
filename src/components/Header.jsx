@@ -26,10 +26,9 @@ export default function Header() {
             </p>
           </div>
         </div>
-        <div className='flex flex-row gap-10 font-light font-heading'>
+        <div className='flex flex-row gap-1 font-light font-heading'>
             <button className={`bg-transparent py-3 px-8 rounded-full cursor-pointer transition-colors duration-300 ${isDark ? 'hover:bg-emerald-600 hover:text-white' : 'hover:bg-gray-100 hover:text-black'}`}>Tentang</button>
-            <button className={`bg-transparent py-3 px-8 rounded-full cursor-pointer transition-colors duration-300 ${isDark ? 'hover:bg-emerald-600 hover:text-white' : 'hover:bg-gray-100 hover:text-black'}`}>Program</button>
-            <button className={`bg-transparent py-3 px-8 rounded-full cursor-pointer transition-colors duration-300 ${isDark ? 'hover:bg-emerald-600 hover:text-white' : 'hover:bg-gray-100 hover:text-black'}`}>Produk <span className='font-bold'>Restorasi</span></button>
+            <button className={`bg-transparent py-3 px-8 rounded-full cursor-pointer transition-colors duration-300 ${isDark ? 'hover:bg-emerald-600 hover:text-white' : 'hover:bg-gray-100 hover:text-black'}`}>Program <span className='font-bold'> Restorasi</span></button>
             <button className={`bg-transparent py-3 px-8 rounded-full cursor-pointer transition-colors duration-300 ${isDark ? 'hover:bg-emerald-600 hover:text-white' : 'hover:bg-gray-100 hover:text-black'}`}>Profil</button>
         </div>
     </div>
